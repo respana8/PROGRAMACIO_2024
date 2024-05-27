@@ -1,0 +1,22 @@
+		LAYOUT MANAGER
+	(Disposició elements gràfics)
+
+		|
+		|
+		|--------------------------------------- JPANEL -----------------------------------------------------------------
+						(Generació del panell amb el Layout						|
+						de manera que els components es col·loquin					|
+						de la manera que desitjem)							|
+																|
+															CREAR I AFEGIR BOTONS------------------------------------
+														(Crear botons necessaris dins del JPANEL			|
+														en aquest cas els d'una calculadora del 1			|
+														al 9, els signes d'operació i un botó per			|
+														a esborrar les dades)						|
+																						|
+																						|
+																				AFEGIR METODES DE CONTROL D'ACCIONS
+																			(com per exemple action listener per a que comprovi quan
+																			es prem un botó i un mètode per a fer a aplicar-l'hi la funció
+																			del botó, de manera que tinguin un ús real i no sigui merament
+																			estètic).
