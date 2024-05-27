@@ -1,0 +1,43 @@
+//Classe
+
+public class Media {
+    private String nom;
+    private String autor;
+    private int duradaSegons;
+
+    // Constructor
+
+    public Media(String nom, String autor, int duradaSegons) {
+        this.nom = nom;
+        this.autor = autor;
+        this.duradaSegons = duradaSegons;
+    }
+
+    // Getters
+
+    public String getNom() {
+        return nom;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public int getDurada() {
+        return duradaSegons;
+    }
+
+    // Setters
+
+    public void setNom(String n) {
+        nom = n;
+    }
+
+    public void setAutor(String a) {
+        autor = a;
+    }
+
+    public void setDurada(int d) {
+        duradaSegons = d;
+    }
+}

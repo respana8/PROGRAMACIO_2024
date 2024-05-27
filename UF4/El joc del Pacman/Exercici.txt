@@ -1,0 +1,5 @@
+(classe)								  (classe)							      (classe)							     (classe)
+PACMAN ------------------------------------------------------------------ FANTASMES -----------------------------------------------------------FRUITES-------------------------------------------------------LABERINT	
+(Atributs)							          (Atributs)							      (Atributs)						     (Atributs)	
+- Powerup (menjar fantasmes)					-color (segons el color te un poder)					-punts(té un numero de punts)				- pared(pacman no pot atravessar-ho)
+-vulnerable (si et toca un fantasma et mata)			-vulnerable (si et toca pacman et mata)					-temps(dura un temps limitat)				- forat(pacman pot atravessar-ho)

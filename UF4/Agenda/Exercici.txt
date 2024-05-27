@@ -1,0 +1,9 @@
+1 - Comprovar dia que es 
+2 - Visualitzar el dia que es
+3 - Anar al dia que es (Obrir llibre per a la pàgina que ens tocaria) - paralel·lisme amb la vida real
+4 - Veure events i hora - Mirar entre línees per trobar a la que correspon
+5 - afegir un event - Escriure
+6 - Buscar dia en el que el volem afegir - Cambiar de pàgina
+7 - Escollir l'hora del event - Mirar entre línees per trobar a la que correspon
+8 - Afegir-l'ho
+9 - Tancar agenda - Tancar el llibre

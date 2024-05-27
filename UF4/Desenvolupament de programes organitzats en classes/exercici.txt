@@ -1,0 +1,134 @@
+////////////////
+///BIBLIOTECA///
+////////////////
+
+///CLASSE
+public class Llibres{
+  String titol;
+  String autor;
+  String estat;
+  boolean siono;
+
+///CONSTRUCTOR
+
+public Llibres(String titol, String autor, String estat, boolean siono) {
+    this.titol = titol;
+    this.autor = autor;
+    this.estat = estat;
+    this.siono = siono;
+}
+
+
+///MÈTODES
+
+public void assignarTitol(String titol) {
+    this.titol = titol;
+}
+
+public void assignarAutor(String autor) {
+    this.autor = autor;
+}
+
+public void iniciPrestec(boolean siono) {
+    this.siono = siono;
+}
+
+public String cambiestat(String estat) {
+    if (siono){
+      return "prestat";
+    }else{
+      return "disponible";
+    }
+}
+}
+
+
+////////////////
+/////BANC/////
+////////////////
+
+///CLASSE
+public class Banc{
+  double saldo;
+
+///CONSTRUCTOR
+
+  public Banc(double saldo){
+    this.saldo = saldo;
+  }
+
+///MÈTODES
+
+  public void consultarSaldo() {
+      System.out.println("Hi ha: " + saldo);
+  }
+
+  public void afegirSaldo() {
+      Scanner scanner = new Scanner(System.in);
+      System.out.println("Líquid a Ingressar:");
+      double ingres = scanner.nextDouble();
+      this.saldo += ingres;
+  }
+
+  public void retirarSaldo() {
+      Scanner scanner = new Scanner(System.in);
+      System.out.println("Líquid a Retirar:");
+      double retirada = scanner.nextDouble();
+      this.saldo -= retirada;
+  }
+
+}
+
+/////////////////
+//////VOLS//////
+////////////////
+
+///CLASSE
+public class Vols{
+  String identificacio;
+  String origen;
+  String desti;
+  int seients;
+  boolean reservat;
+
+///CONSTRUCTOR
+  public Vols(  String identificacio, String origen, String estat, int seients, boolean reservat){
+    this.identificacio = identificacio;
+    this.origen = origen;
+    this.desti = desti;
+    this.seients = seients;
+    this.reservat = reservat;
+  }
+
+///MÈTODES
+
+public void identificarVol(String identificacio) {
+    this.identificacio = identificacio;
+}
+
+public void afegirOrigen(String origen) {
+    this.origen = origen;
+}
+
+public void afegirDesti(String desti) {
+    this.desti = desti;
+}
+
+public void afegirDesti(int seients) {
+    this.seients = seients;
+}
+
+public reservesSeients(int seients) {
+  while (1 <= seients){
+    if (reservat){
+      return "resevat";
+    }else{
+      return "lliure";
+    }
+}
+
+  }
+
+
+
+}

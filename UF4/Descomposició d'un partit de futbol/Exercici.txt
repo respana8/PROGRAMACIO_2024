@@ -1,0 +1,7 @@
+Quants objectes jugador hi ha? 22
+Pot variar el nombre d’objectes jugador? si, depenent de lesions o expulsions
+Té sentit que hi hagi objectes arbitre:? si, ja que es qui valorara les jugades en aquest cas tindra mètodes que afectaran als jugadors
+Té sentit que hi hagi les classes Defensa o Porter? Si, per diferenciar les posicions dels jugadors
+Té sentit que el número de la samarreta sigui un atribut de jugador? Si, per a diferenciar-los d'ells
+I si dos jugadors es poden canviar la samarreta entre ells? doncs, cambiara el seu rol depenent del numero, ja que quan 2 jugadors es cambien la samarreta , es cambia la seva posició.
+Té sentit que un objecte arbitre tingui una operació rebreTargeta? no, ja que l'arbitre no en rep la haurien de tenir els jugadors
