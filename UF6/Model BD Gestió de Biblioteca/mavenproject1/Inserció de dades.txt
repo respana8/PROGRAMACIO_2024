@@ -1,0 +1,5 @@
+INSERT INTO Autor (id, nom, cognom) VALUES
+    (1, 'Alex', 'Marin'),
+
+INSERT INTO Llibre (id, titol, anyPublicacio, autorId) VALUES
+    (1, 'El motor del exito', 1967, 1);
