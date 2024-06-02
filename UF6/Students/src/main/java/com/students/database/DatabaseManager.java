@@ -5,7 +5,7 @@ public class DatabaseManager {
     private Connection connexio;
     public void connect() {
         try {
-            connexio = DriverManager.getConnection("jdbc:postgresql://192.168.1.72:5432/biblioteca", "postgres", "olakase");
+            connexio = DriverManager.getConnection("jdbc:postgresql://192.168.1.72:5432/students", "postgres", "olakase");
             System.out.println("OK");
         } catch (SQLException e) {
             e.printStackTrace();
